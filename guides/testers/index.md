@@ -12,6 +12,10 @@ tools for free.
 Join us in [discord][0]! Let us know what you're working on and what you'd like
 to see in our products. It's also a good venue to discuss feedback & bug reports.
 
+# After downloading
+
+<img src="https://github.com/optoolco/docs/blob/master/guides/testers/images/toolbox-1.png?raw=true"/>
+
 [0]:https://discord.gg/9KxXaBya
 
 
