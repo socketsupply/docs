@@ -18,18 +18,18 @@ can be administered by your organization. Changes made with Operator
 tools are sync'd between team members and can be reverted and exported
 with Operator Time Machine.
 
-# Installation
+## Installation
 
-## How do I download Operator Tools?
+### How do I download Operator Tools?
 
 To download the software, visit the [downloads](/download) page.
 
 
-## Does 5 Apps mean 5 copies of electron?
+### Does 5 Apps mean 5 copies of electron?
 
 No. We only ship one binary. And we have a fork of electron that is much smaller and optimized for our use cases.
 
-## How to install on macOS
+### How to install on macOS
 
 - Download the <code>.dmg</code> file
 - Navigate to your Downloads folder and double-click the <code>.dmg</code> to open
@@ -44,7 +44,7 @@ No. We only ship one binary. And we have a fork of electron that is much smaller
   display="true">OS 10.9 or later
 </notification-inline>
 
-## How to installation on Windows
+### How to installation on Windows
 
 - Select Save or Save As to download the <code>.exe</code> file from the <a href="/downloads" alt="Downloads">downloads page</a>.
 - If you select Save, the program file is in your Downloads folder.
@@ -58,7 +58,7 @@ No. We only ship one binary. And we have a fork of electron that is much smaller
   display="true">Windows 10 or later
 </notification-inline>
 
-## How to install on Linux
+### How to install on Linux
 
 The following installers are available for Linux operating systems: <code>.AppImage</code>,
 <code>.deb</code>, <code>.rpm</code>, and <code>.tar.gz</code>
@@ -77,33 +77,33 @@ How to install with .AppImage:
   display="true">64-bit Linux
 </notification-inline>
 
-## Can I install Operator on another computer?
+### Can I install Operator on another computer?
 
 With a single developer license, you can install operator on as many computers as you like.
 
-# Accounts
+## Accounts
 
-## How do I change my password?
+### How do I change my password?
 
 - Sign in to your <a href="/settings" alt="Settings">Settings</a> page.
 - On the <b>Account</b> tab, under <b>Password</b>, enter your old password and new password. Click <b>Save</b>.
 - A code will be emailed to you. Enter it to confirm the change.
 
-## I forgotten my password
+### I forgotten my password
 
 - Proceed to the <a href="/settings" alt="Settings">Settings</a> page. If you are already signed in, click <b>Sign out</b>.
 - On the Sign In page, click <b>Forgot Password</b> and follow the instructions.
 - A code will be sent to your email for password reset.
 
-# License
+## License
 
-## What does my Operator license include?
+### What does my Operator license include?
 
 A license includes access to all Operator applications, including periodic software updates.</p>
 
-# Applications
+## Applications
 
-## How do I add multiple AWS accounts?
+### How do I add multiple AWS accounts?
 
 - Launch the Operator toolbar application.
 - Under the settings tab, select <b>Manage Credentials</b>.
@@ -111,11 +111,11 @@ A license includes access to all Operator applications, including periodic softw
 - Click <b>Save</b> to save your new credentials.
 - They can now be accessed through each application menu.
 
-## How do I launch an app?
+### How do I launch an app?
 
 You can launch a Operator app from the toolbar application by selecting the <b>Launch</b> icon next to the application.</p>
 
-## How do I install new Operator apps?
+### How do I install new Operator apps?
 
 - Launch the Operator Toolbox application from your menu bar.
 - At the left you will aee the apps, pick the one you want to download.
