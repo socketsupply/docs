@@ -1,8 +1,8 @@
 # Frequently Asked Questions
 
-## Who is Operator Tools for?
+## Who uses Operator Tools?
 
-### Developers, Creatives, Managers
+### Developers, Creatives, Managers, Founders
 
 Cloud services like AWS are powerful, they provide a lot of utility,
 but they're also very complex. They have a steep learning curve, and
