@@ -1,19 +1,19 @@
 # Getting Started
 
-## What is the toolbox app?
 
-You can launch Operator apps the same way as any regular app on your OS. But
-the Toolbox provides updates and other features including...
+### Running the Toolbox
 
-- Wizards (Guides that help you get things done).
-- Notifications about tasks (ie, builds, or permission requests).
-- Global settings that apply to all Opeartor apps.
+If you don't have any AWS credentials on your computer, you will see a screen
+asking for them.
 
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-a.png"/>
 
-### After downloading
+You can copy your credentials from [here][0].
 
-When you open the Toolbox app you will be greeted with a app launcher screen.
-Click the other headings on the left to see more wizards or settings.
+If you do have credentials on your computer, the list of applications on the left
+hand side of the screen will be expanded, apps are ready to download, launch and update.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-1.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-b.png"/>
+
+[0]:https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 
