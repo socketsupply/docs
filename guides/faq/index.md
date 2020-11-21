@@ -18,6 +18,29 @@ can be administered by your organization. Changes made with Operator
 tools are sync'd between team members and can be reverted and exported
 with Operator Time Machine.
 
+## Do you collect telemetry data?
+
+No. Use `Little Snitch` or `MITM` if you want to double check. But our
+reasons are, like you, we have work to do and wouldn't want someone
+watching over our shoulder as we do it.
+
+## Do you audit the dependencies you use in your product?
+
+Yes. Almost all of the deps we use, we also contribute to. If not, we
+read the code. To make this more viable, we use as few dependencies as
+possible. We also fork Elecron to remove dependencies that are
+non-essential.
+
+## How safe is your product?
+
+Our products read only your data. We make sure your data is escaped
+and properly contained when loaded. We don't load or execute any arbitrary
+3rd party code. All our updates are signed and sent over encrypted channels.
+
+## I found a vulnerability, do you have a bug-bounty program?
+
+Yes. Please email us at `infosec@optool.co`.
+
 ## Installation
 
 ### How do I download Operator Tools?
