@@ -16,12 +16,12 @@ your code, manage your static assets, and manage your data.
 Operator isn't a service, it runs entirely within your network and
 can be administered by your organization. Changes made with Operator
 tools are sync'd between team members and can be reverted and exported
-with Operator Time Machine.
+with <b>Operator Time Machine</b>.
 
 ## Do you collect telemetry data?
 
-No. Use `Little Snitch` or `MITM` if you want to double check. But our
-reasons are, like you, we have work to do and wouldn't want someone
+No! Use `Little Snitch` or `MITM` if you want to double check. But our
+reasons are that, like you, we have work to do and wouldn't want someone
 watching over our shoulder as we do it.
 
 ## Do you audit the dependencies you use in your product?
@@ -36,10 +36,13 @@ non-essential.
 Our products read only your data. We make sure your data is escaped
 and properly contained when loaded. We don't load or execute any arbitrary
 3rd party code. All our updates are signed and sent over encrypted channels.
+Any opeartions that write data can be easily reverted using <b>Operator
+Time Machine</b>.
 
-## I found a vulnerability, do you have a bug-bounty program?
+## If I find a vulnerability, do you have a bug-bounty program?
 
-Yes. Please email us at `infosec@optool.co`.
+Yes. Please email us at `infosec at optool dot co`.
+
 
 ## Installation
 
