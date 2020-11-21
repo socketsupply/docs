@@ -1,19 +1,21 @@
 # Getting Started
 
+To download and install the software, check out [this][0] section in our FAQ.
 
-### Running the Toolbox
+### Running Operator Toolbox
 
 If you don't have any AWS credentials on your computer, you will see a screen
 asking for them.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-a.png"/>
 
-You can copy your credentials from [here][0].
+You can copy your credentials from [here][1].
 
 If you do have credentials on your computer, the list of applications on the left
 hand side of the screen will be expanded, apps are ready to download, launch and update.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-b.png"/>
 
-[0]:https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
+[0]:https://optool.co/docs/?faq/installation
+[1]:https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 
