@@ -16,6 +16,11 @@ hand side of the screen will be expanded, apps are ready to download, launch and
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-b.png"/>
 
+Click on the side-bar headings to expand them, the apps section contains all the apps
+that you currently have installed or can install with your license.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-1.png"/>
+
 [0]:https://optool.co/docs/?faq/installation
 [1]:https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 

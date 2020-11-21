@@ -18,6 +18,10 @@ can be administered by your organization. Changes made with Operator
 tools are sync'd between team members and can be reverted and exported
 with <b>Operator Time Machine</b>.
 
+## Why would anyone use a GUI? Do you even 1337??
+
+Microsoft acquired a UI called Github for 7.5 Billion USD. People like GUIs.
+
 ## Do you collect telemetry data?
 
 No! Use `Little Snitch` or `MITM` if you want to double check. But our
