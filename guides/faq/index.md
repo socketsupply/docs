@@ -26,7 +26,8 @@ Microsoft acquired a UI called Github for 7.5 Billion USD. People like GUIs.
 
 No! Use `Little Snitch` or `MITM` if you want to double check. But our
 reasons are that, like you, we have work to do and wouldn't want someone
-watching over our shoulder as we do it.
+watching over our shoulder as we do it. We collect no data what-so-ever
+from you or about you, it's not our business.
 
 ## Do you audit the dependencies you use in your product?
 
@@ -43,12 +44,20 @@ and properly contained when loaded. We don't load or execute any arbitrary
 Any opeartions that write data can be easily reverted using <b>Operator
 Time Machine</b>.
 
+## I like your UI, what framework did you use?
+
+We are minimalists. We try to ship as little code as possible. We built our
+own framework called [Tonic](https://tonic.technology).
+
 ## If I find a vulnerability, do you have a bug-bounty program?
 
 Yes. Please email us at `infosec at optool dot co`.
 
+## How can I improve the docs?
 
-## Installation
+If you want to contribute to the docs, the repo is [here](https://github.com/optoolco/docs).
+
+## How do I install Operator Tools?
 
 ### How do I download Operator Tools?
 
@@ -115,13 +124,13 @@ With a single developer license, you can install operator on as many computers a
 
 ### How do I change my password?
 
-- Sign in to your <a href="/settings" alt="Settings">Settings</a> page.
+- Sign in to the <a href="/manage" alt="Management Page">management</a> page.
 - On the <b>Account</b> tab, under <b>Password</b>, enter your old password and new password. Click <b>Save</b>.
 - A code will be emailed to you. Enter it to confirm the change.
 
 ### I forgotten my password
 
-- Proceed to the <a href="/settings" alt="Settings">Settings</a> page. If you are already signed in, click <b>Sign out</b>.
+- Proceed to the <a href="/management" alt="Management Page">management</a> page. If you are already signed in, click <b>Sign out</b>.
 - On the Sign In page, click <b>Forgot Password</b> and follow the instructions.
 - A code will be sent to your email for password reset.
 
@@ -129,21 +138,20 @@ With a single developer license, you can install operator on as many computers a
 
 ### What does my Operator license include?
 
-A license includes access to all Operator applications, including periodic software updates.</p>
+A license includes access to all Operator applications, including periodic software updates.
 
 ## Applications
 
 ### How do I add multiple AWS accounts?
 
-- Launch the Operator toolbar application.
-- Under the settings tab, select <b>Manage Credentials</b>.
-- Click the <b>Add Account</b> button to add a new account.
-- Click <b>Save</b> to save your new credentials.
-- They can now be accessed through each application menu.
+- Launch the Operator Toolbox application.
+- Under the settings tab, select <b>AWS Profiles</b>.
+- Type the name, key, and secret into the empty inputs and then click the check mark to save.
 
 ### How do I launch an app?
 
-You can launch a Operator app from the toolbar application by selecting the <b>Launch</b> icon next to the application.</p>
+You can launch a Operator app from the toolbar application by selecting the <b>Launch</b> icon
+next to the application.
 
 ### How do I install new Operator apps?
 
