@@ -51,7 +51,7 @@ discover property names and input the correct value type for your search.
 
 Tables are rows of related data. All rows of data are just objects with properties.
 But when you create your table, you pick one or two special properties that are
-known as `partition` and `range` properties.
+known as the `partition` and `range` properties.
 
 Dynamo uses the `partition` and `range` properties as the `keys` to organize your
 tables. A query will give you faster results because it can focus-in on a single
@@ -76,6 +76,14 @@ DynamoDB data can be relational. And sometimes you want to query it that way.
 same way you would query a regular relational database.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/pql-form.png"/>
+
+## Query Inspector
+
+All modes produce JSON that is used as the parameters to query DynamoDB. You can
+inspect, edit and copy this value with the Query inspector. This can be useful if
+you are trying to test and develop a query for your app.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/inspector.png"/>
 
 [0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
 [1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html 
