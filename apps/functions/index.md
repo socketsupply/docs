@@ -15,7 +15,9 @@ To create a function, choose `Create` from the `Actions` menu.
 
 ## Log output
 
-View function logs immediately using the built-in log console.
+You can log to `stdout` or `stderr` from any function. Logs are
+piped to cloud watch and you can view them immediately using the
+built-in console.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console.png"/>
 

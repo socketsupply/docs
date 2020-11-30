@@ -19,3 +19,11 @@ Time Machine can automatically create and or use a repositoy for your changes
 and sync them for you. Alternatively, you can sync only with your peers.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/time-machine/images/sync.png"/>
+
+## Export
+
+To create and export a snapshot from Time Machine, select the `Actions` section
+of the properties panel on the right side. Choose the format and select a location
+to save the JSON file.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/time-machine/images/export.png"/>
