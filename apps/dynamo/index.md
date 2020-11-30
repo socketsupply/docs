@@ -1,5 +1,7 @@
 # Dynamo
 
+The Dynamo App is a GUI for the DymanoDB database.
+
 ## Searching
 
 The input at the top of the app is for searching. There are three different

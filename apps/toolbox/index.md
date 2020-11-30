@@ -11,9 +11,6 @@ are using).
 If you have a team license, this app is how your team members can find and
 connect to you.
 
-You can launch Operator apps the same way as any regular app. But Toolbox
-provides a lot of useful features...
-
 ### Wizards
 
 Wizards guide you through common tasks. They make your job easier by reducing
