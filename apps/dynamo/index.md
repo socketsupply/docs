@@ -42,7 +42,7 @@ app = 'buckets' AND tag = 'beta'
 If you want help deciding how to formulate your search, click the up/down arrow
 inside the input box (right side) and a form will appear. This form will help
 you add more conditions. From here you can choose how to compare the value you
-are searchin for with the values in the database. This form will also help you
+are searching for with the values in the database. This form will also help you
 discover property names and input the correct value type for your search.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/scan-form.png"/>
@@ -69,7 +69,7 @@ hash = 'release' AND begins_with(range, 'alpha')
 In this example, we used a `function`. You can see a complete list of functions and
 operators [here][0].
 
-### SQL-compatible queryies
+### SQL-compatible queries
 
 DynamoDB data can be relational. And sometimes you want to query it that way.
 [PartiQL][1] is a SQL-compatible language that allows you to query dynamodb in the

@@ -1,6 +1,8 @@
 # Toolbox
 
 ## What is the Opeartor Toolbox?
+Toolbox launches and updates your wizards and apps. It also helps you
+manage your profiles.
 
 When you start Operator, an icon will appear in your `tray`, near your
 Wifi icon (the top or lower bar of your desktop, depending on what OS you
