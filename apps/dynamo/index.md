@@ -103,3 +103,4 @@ If you want to edit the DynamoDB value directly, click the code icon at the bott
 
 [0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
 [1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html
+[2]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html
