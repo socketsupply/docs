@@ -12,3 +12,10 @@ filtering. Expand the `Filter` section of the property panel on the right side
 of the screen for more options.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/time-machine/images/view-changes.png"/>
+
+## Sync
+
+Time Machine can automatically create and or use a repositoy for your changes
+and sync them for you. Alternatively, you can sync only with your peers.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/time-machine/images/sync.png"/>
