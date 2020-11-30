@@ -12,3 +12,9 @@ To create a function, choose `Create` from the `Actions` menu.
 > `git remote` and it can be sync'd automatically for you.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-general.png"/>
+
+## Log output
+
+View function logs immediately using the built-in log console.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console.png"/>
