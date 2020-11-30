@@ -2,6 +2,7 @@
 
 The _Dynamo_ app is a GUI for the DymanoDB database.
 
+
 ## Searching
 
 The input at the top of the app is for searching. There are three different
@@ -71,13 +72,15 @@ hash = 'release' AND begins_with(range, 'alpha')
 In this example, we used a `function`. You can see a complete list of functions and
 operators [here][0].
 
+
 ### SQL-compatible queries
 
 DynamoDB data can be relational. And sometimes you want to query it that way.
-[PartiQL][1] is a SQL-compatible language that allows you to query dynamodb in the
-same way you would query a regular relational database.
+[PartiQL][1] is a SQL-compatible language that allows you to query dynamodb in
+the same way you would query a regular relational database.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/pql-form.png"/>
+
 
 ## Query Inspector
 
@@ -91,17 +94,27 @@ your app.
 
 ## Editing
 
-When you select a row, it will open the value editor. Since DynamoDB rows are just objects,
-a tree is a good way to progressively disclose the value. From here you can change the type of
-a property, edit, delete and add new properties.
+When you select a row, it will open the value editor. Since DynamoDB rows
+are just objects, a tree is a good way to progressively disclose the value.
+From here you can change the type of a property, edit, delete and add new
+properties.
 
-> Note: the `partition` and `range` properties are only editable on new records.
+> Note: the `partition` and `range` properties are only editable on new
+> records.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor.png"/>
 
 If you want to edit the DynamoDB value directly, click the code icon at the bottom of the panel.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor-code.png"/>
+
+
+## Create a Table
+
+To create a table, choose `Create` from the `Table` menu. Any options you
+don't see here now you can change later in the properties panel.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/create-table.png"/>
 
 [0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
 [1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html
