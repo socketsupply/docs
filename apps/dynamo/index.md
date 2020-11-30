@@ -90,7 +90,10 @@ your app.
 ## Editing
 
 When you select a row, it will open the value editor. Since DynamoDB rows are just objects,
-a tree is a good way to progressively disclose the value.
+a tree is a good way to progressively disclose the value. From here you can change the type of
+a property, edit, delete and add new properties.
+
+> Note: the `partition` and `range` properties are only editable on new records.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor.png"/>
 
