@@ -19,6 +19,10 @@ View function logs immediately using the built-in log console.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console.png"/>
 
+The console shoud correctly highlight JSON and other notable things.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console-json.png"/>
+
 ## Quick View/Edit
 
 The Functions app will show you the files form your function in
