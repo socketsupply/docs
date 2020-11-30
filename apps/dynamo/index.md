@@ -50,10 +50,18 @@ in the database, discover property names and input the correct value type.
 
 Tables are rows of related data. All rows of data are just objects with properties.
 But when you create your table, you pick one or two special properties that are
-known as `partition` or (`hash`) and `range` properties.
+known as `partition` and `range` properties.
 
-Dynamo uses these partition (hash) properties as the `keys` to organize your tables.
+Dynamo uses the `partition` and `range` properties as the `keys` to organize your tables.
 A query will give you faster results because it can focus-in on a single partition of
 your table and look at only rows that match.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/query-form.png"/>
+
+### PQL
+
+DynamoDB data can be relational. And sometimes you want to query it that way.
+PartiQL is a SQL compatible language that allows you to query dynamodb in the
+same way you would query a regular relational database.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/pql-form.png"/>
