@@ -10,3 +10,5 @@ To create a function, choose `Create` from the `Actions` menu.
 
 > Note: If you don't have any code locally, you can enter the
 > `git remote` and it can be sync'd automatically for you.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-general.png"/>
