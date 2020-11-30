@@ -24,6 +24,6 @@ that you currently have installed or can install with your license.
 If you've never launched an app before, it will download. If you have, it will just launch.
 Updates are downloaded in the background.
 
-[0]:https://optool.co/docs/?faq/installation
+[0]:https://optool.co/docs/?faq/how-do-i-install-operator-tools
 [1]:https://console.aws.amazon.com/iam/home?region=us-east-1#/security_credentials
 
