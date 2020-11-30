@@ -21,7 +21,7 @@ View function logs immediately using the built-in log console.
 
 The console shoud correctly highlight JSON and other notable things.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console-json.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console-highlights.png"/>
 
 ## Quick View/Edit
 
