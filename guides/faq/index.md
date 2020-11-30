@@ -24,7 +24,7 @@ Microsoft acquired a UI called Github for 7.5 Billion USD. People like GUIs.
 
 ## Do you collect telemetry data?
 
-No! Use `Little Snitch` or `MITM` if you want to double check. But our
+No! Use something like `Little Snitch` if you want to verify it. But our
 reasons are that, like you, we have work to do and wouldn't want someone
 watching over our shoulder as we do it. We collect no data what-so-ever
 from you or about you, it's not our business.
