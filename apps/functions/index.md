@@ -18,3 +18,11 @@ To create a function, choose `Create` from the `Actions` menu.
 View function logs immediately using the built-in log console.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/console.png"/>
+
+## Quick Editor
+
+The Functions app will show you the files form your function in
+the tree. The app isn't inteneded to replace your editor but in
+some cases it's convenient to quickly view or edit some source files.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/editor.png"/>
