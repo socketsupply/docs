@@ -79,11 +79,24 @@ same way you would query a regular relational database.
 
 ## Query Inspector
 
-All modes produce JSON that is used as the parameters to query DynamoDB. You can
-inspect, edit and copy this value with the Query inspector. This can be useful if
-you are trying to test and develop a query for your app.
+A search will generate JSON that cab be used as the parameters to the with the
+DynamoDB [aws-sdk][2]. You can inspect, edit and copy this value with the Query
+inspector. This can be useful if you are trying to test and develop a query for
+your app.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/inspector.png"/>
 
+
+## Editing
+
+When you select a row, it will open the value editor. Since DynamoDB rows are just objects,
+a tree is a good way to progressively disclose the value.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor.png"/>
+
+If you want to edit the DynamoDB value directly, click the code icon at the bottom of the panel.
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor-code.png"/>
+
 [0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
-[1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html 
+[1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html
