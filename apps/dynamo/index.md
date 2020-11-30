@@ -52,11 +52,12 @@ Tables are rows of related data. All rows of data are just objects with properti
 But when you create your table, you pick one or two special properties that are
 known as `partition` and `range` properties.
 
-Dynamo uses the `partition` and `range` properties as the `keys` to organize your tables.
-A query will give you faster results because it can focus-in on a single partition of
-your table and look at only rows that match.
+Dynamo uses the `partition` and `range` properties as the `keys` to organize your
+tables. A query will give you faster results because it can focus-in on a single
+partition of your table and look at only rows that match.
 
-> Note: Your `partition` is required when performing a query (your `range` is optional).
+> Note: DynamoDB requires your `partition` property when for queries (your `range`
+> is optional).
 
 ```sql
 hash = 'release' AND begins_with(range, 'alpha')
