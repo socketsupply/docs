@@ -25,7 +25,7 @@ Consider a table where a row has a property called `app`. The following query
 will show all entries where the `app` value is equal to `buckets`. All you need
 to type is...
 
-```sql
+```
 app = 'buckets'
 ```
 
@@ -33,7 +33,7 @@ app = 'buckets'
 
 You can check for multiple properties by adding more conditions...
 
-```sql
+```
 app = 'buckets' AND tag = 'beta'
 ```
 
@@ -59,7 +59,7 @@ partition of your table and look at only rows that match.
 > Note: DynamoDB requires your `partition` property when for queries (your `range`
 > is optional).
 
-```sql
+```
 hash = 'release' AND begins_with(range, 'alpha')
 ```
 
