@@ -56,12 +56,24 @@ Dynamo uses the `partition` and `range` properties as the `keys` to organize you
 A query will give you faster results because it can focus-in on a single partition of
 your table and look at only rows that match.
 
+> Note: Your `partition` is required when performing a query (your `range` is optional).
+
+```sql
+hash = 'release' AND begins_with(range, 'alpha')
+```
+
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/query-form.png"/>
 
-### PQL
+In this example, we used a `function`. You can see a complete list of functions and
+operators [here][0].
+
+### SQL-compatible queryies
 
 DynamoDB data can be relational. And sometimes you want to query it that way.
-PartiQL is a SQL compatible language that allows you to query dynamodb in the
+[PartiQL][1] is a SQL-compatible language that allows you to query dynamodb in the
 same way you would query a regular relational database.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/pql-form.png"/>
+
+[0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
+[1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html 
