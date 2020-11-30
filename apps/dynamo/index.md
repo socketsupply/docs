@@ -1,6 +1,6 @@
 # Dynamo
 
-The Dynamo App is a GUI for the DymanoDB database.
+The _Dynamo_ app is a GUI for the DymanoDB database.
 
 ## Searching
 
