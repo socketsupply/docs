@@ -52,7 +52,7 @@ some cases it's convenient to quickly view or edit source files.
 
 ### API
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/api-view.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-api.png"/>
 
 ### Permissions
 
