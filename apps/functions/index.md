@@ -31,7 +31,7 @@ If someone else created the function using the Functions app,
 you will see the remote already entered into the input and you
 can click the `Git Integration` toggle.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-general.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-setup.png"/>
 
 ## Log output
 
