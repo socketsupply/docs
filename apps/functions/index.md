@@ -21,8 +21,8 @@ Functions app can automatically detect your remote. All you have
 to do is click the toggle labeled `Git Integration`.
 
 If you create a new function and don't have any code on your
-computer, you can get it from github by entering the remote
-and clicking the `Git Integration` toggle.
+computer, you can get it by entering the remote and clicking the
+`Git Integration` toggle.
 
 ### Existing Functions
 
@@ -36,9 +36,9 @@ can click the `Git Integration` toggle.
 ## Log output
 
 You can log to `stdout` or `stderr` from any function. Logs are
-piped to cloud watch and you can view them immediately using the
+piped to CloudWatch and you can tail them immediately using the
 built-in console. The console shoud correctly highlight JSON and
-other notable things.
+other notable things that you log.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/view-logs.png"/>
 
