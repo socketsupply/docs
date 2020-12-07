@@ -5,7 +5,7 @@ The _Functions_ app helps you deploy and manage serverless code.
 
 ## Create a Function
 
-To create a function, choose `Create` from the `Actions` menu.
+To create a function, choose `Create` from the `Functions` menu.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/functions/images/create.png"/>
 
