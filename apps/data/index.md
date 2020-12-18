@@ -1,6 +1,6 @@
 # Dynamo
 
-The _Dynamo_ app is a GUI for the DymanoDB database.
+The Operator _Data_ app is a DymanoDB compatible UI for NoSQL data.
 
 
 ## Searching
