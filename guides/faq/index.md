@@ -57,6 +57,25 @@ Yes. Please email us at `infosec at optool dot co`.
 
 If you want to contribute to the docs, the repo is [here](https://github.com/optoolco/docs).
 
+## How can I report an issue?
+
+If you have found an issue, please report it on our [github beta](https://github.com/optoolco/beta/issues)
+repository.
+
+### Can I share the logs for the operator application ?
+
+Yes, it would be very helpful if you took the local logfile for
+the operator apps and [pasted it](https://gist.github.com/) to share
+in the github issue.
+
+You can find our log files on disk for
+
+ - MacOS : `~/Library/Application Support/$APP_NAME/optoolco/logs.nldj`
+ - Windows : `%appdata%\$APP_NAME\optoolco\logs.nldj`
+ - Linux : `~/.config/$APP_NAME/optoolco/logs.nldj`
+
+The `$APP_NAME` is one of ( `Operator`, `Buckets`, `Data` , `Functions` )
+
 ## How do I install Operator Tools?
 
 ### How do I download Operator Tools?
