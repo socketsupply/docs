@@ -138,16 +138,15 @@ How to install with .AppImage:
 
 With a single developer license, you can install operator on as many computers as you like.
 
-### How to get the latests Operator updates.
+### How to get the latest Operator updates.
 
-The Operator applications checks for updates on a daily basis, if you
-would like to update to the latests version immediately you can check for updates in the toolbox under the Preferences menu.
+The Operator Toolbox application checks for updates on a daily basis, if you
+would like to update to the latest version immediately you can check for updates in the toolbox under the Preferences menu.
 
 <img class="fullscreen" src="https://raw.githubusercontent.com/optoolco/docs/master/guides/faq/images/check-updates.png"/>
 
-Once you check for updates, you can restart the application
-that was updated, including toolbox and you will start the
-latests version.
+Once updates have been downloaded, you need to restart the app
+to use the newest version of it.
 
 ## Accounts
 
