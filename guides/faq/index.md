@@ -82,7 +82,6 @@ The `$APP_NAME` is one of ( `Operator`, `Buckets`, `Data` , `Functions` )
 
 To download the software, visit the [downloads](/download) page.
 
-
 ### Does 5 Apps mean 5 copies of electron?
 
 No. We only ship one binary. And we have a fork of electron that is much smaller and optimized for our use cases.
@@ -138,6 +137,16 @@ How to install with .AppImage:
 ### Can I install Operator on another computer?
 
 With a single developer license, you can install operator on as many computers as you like.
+
+### How to get the latest Operator updates.
+
+The Operator Toolbox application checks for updates on a daily basis, if you
+would like to update to the latest version immediately you can check for updates in the toolbox under the Preferences menu.
+
+<img class="fullscreen" src="https://raw.githubusercontent.com/optoolco/docs/master/guides/faq/images/check-updates.png"/>
+
+Once updates have been downloaded, you need to restart the app
+to use the newest version of it.
 
 ## Accounts
 
