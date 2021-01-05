@@ -9,7 +9,7 @@ The input at the top of the app is for searching. There are three different
 ways to use it. Clicking the input's label will toggle between `Scan`, `Query`
 and `PQL` modes.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/input-mode.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/input-mode.png"/>
 
 
 ### The difference between modes
@@ -32,7 +32,7 @@ to type is...
 app = 'buckets'
 ```
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/scan-results.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/scan-results.png"/>
 
 You can check for multiple properties by adding more conditions...
 
@@ -40,7 +40,7 @@ You can check for multiple properties by adding more conditions...
 app = 'buckets' AND tag = 'beta'
 ```
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/more-scan-conditions.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/more-scan-conditions.png"/>
 
 If you want help deciding how to formulate your search, click the up/down arrow
 inside the input box (right side) and a form will appear. This form will help
@@ -48,7 +48,7 @@ you add more conditions. From here you can choose how to compare the value you
 are searching for with the values in the database. This form will also help you
 discover property names and input the correct value type for your search.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/scan-form.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/scan-form.png"/>
 
 ### Querying
 
@@ -67,7 +67,7 @@ partition of your table and look at only rows that match.
 hash = 'release' AND begins_with(range, 'alpha')
 ```
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/query-form.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/query-form.png"/>
 
 In this example, we used a `function`. You can see a complete list of functions and
 operators [here][0].
@@ -79,7 +79,7 @@ DynamoDB data can be relational. And sometimes you want to query it that way.
 [PartiQL][1] is a SQL-compatible language that allows you to query dynamodb in
 the same way you would query a regular relational database.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/pql-form.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/pql-form.png"/>
 
 
 ## Query Inspector
@@ -89,7 +89,7 @@ DynamoDB [aws-sdk][2]. You can inspect, edit and copy this value with the Query
 inspector. This can be useful if you are trying to test and develop a query for
 your app.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/inspector.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/inspector.png"/>
 
 
 ## Editing
@@ -102,11 +102,11 @@ properties.
 > Note: the `partition` and `range` properties are only editable on new
 > records.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/value-editor.png"/>
 
 If you want to edit the DynamoDB value directly, click the code icon at the bottom of the panel.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/value-editor-code.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/value-editor-code.png"/>
 
 
 ## Create a Table
@@ -114,7 +114,7 @@ If you want to edit the DynamoDB value directly, click the code icon at the bott
 To create a table, choose `Create` from the `Table` menu. Any options you
 don't see here now you can change later in the properties panel.
 
-<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/dynamo/images/create-table.png"/>
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/apps/data/images/create-table.png"/>
 
 [0]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Expressions.OperatorsAndFunctions.html
 [1]:https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ql-reference.html
