@@ -2,10 +2,10 @@
 
 One of the upcoming features is an IAM wizard that will help
 walk you through setting up the AWS IAM permissions to get the
-most of the Operator applications.
+most out of the Operator applications.
 
 In the meanwhile, here's a short guide in how to setup a user
-and a role to use the operator applications.
+and a role to use with the operator applications.
 
 ## Creating an operator policy
 
@@ -31,7 +31,7 @@ and then review/save it.
 With a IAM policy created you can create a new user with it's
 AWS access key and AWS secret.
 
-Go to the IAM users section and click create user.
+Go to the IAM users section and click add a user.
 
 <img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/iam-credentials/images/iam-create-user.png"/>
 
@@ -55,5 +55,7 @@ credentials
 
 You can import these credentials into the Operator toolbox under
 `Settings` => `AWS Profiles`
+
+<img src="https://raw.githubusercontent.com/optoolco/docs/master/guides/getting-started/images/toolbox-b.png"/>
 
 There's a section in the [getting started guide](https://optool.co/docs/?get-started/running-operator-toolbox) about adding credentials.
