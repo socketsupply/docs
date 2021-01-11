@@ -1,6 +1,6 @@
 # Toolbox
 
-## What is the Opeartor Toolbox?
+## What is the Operator Toolbox?
 Toolbox launches and updates your wizards and apps. It also helps you
 manage your profiles.
 
