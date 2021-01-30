@@ -76,6 +76,22 @@ You can find our log files on disk for
 
 The `$APP_NAME` is one of ( `Operator`, `Buckets`, `Data` , `Functions` )
 
+### Can I launch the application from the terminal and get logs on stdout ?
+
+Yes, the applications can be launched from the terminal and will provide
+you with logging information on stdout
+
+You can use the following commands
+
+ - MacOs : `/Applications/Operator.app/Contents/MacOS/Operator --application $APP_NAME`
+ - Linux : `operator --application $APP_NAME`
+
+The $APP_NAME would be `buckets`, `data` or `functions`.
+
+To launch the `Operator` toolbox from the terminal you do not need the
+`--application` command line flag and can just run either `operator` or
+`/Applications/Operator.app/Contents/MacOS/Operator`.
+
 ## How do I install Operator Tools?
 
 ### How do I download Operator Tools?
@@ -137,6 +153,17 @@ How to install with .AppImage:
 ### Can I install Operator on another computer?
 
 With a single developer license, you can install operator on as many computers as you like.
+
+### How to do a complete uninstall
+
+You can use your OS to uninstall the application and then you can delete
+the local files the applications have written
+
+ - MacOS : `~/Library/Application Support/$APP_NAME/optoolco`
+ - Windows : `%appdata%\$APP_NAME\optoolco`
+ - Linux : `~/.config/$APP_NAME/optoolco`
+
+You will have to delete them for `Buckets`, `Data`, `Functions` & `Operator`
 
 ### How to get the latest Operator updates.
 
