@@ -138,6 +138,17 @@ How to install with .AppImage:
 
 With a single developer license, you can install operator on as many computers as you like.
 
+### How to do a complete uninstall
+
+You can use your OS to uninstall the application and then you can delete
+the local files the applications have written
+
+ - MacOS : `~/Library/Application Support/$APP_NAME/optoolco`
+ - Windows : `%appdata%\$APP_NAME\optoolco`
+ - Linux : `~/.config/$APP_NAME/optoolco`
+
+You will have to delete them for `Buckets`, `Data`, `Functions` & `Operator`
+
 ### How to get the latest Operator updates.
 
 The Operator Toolbox application checks for updates on a daily basis, if you
