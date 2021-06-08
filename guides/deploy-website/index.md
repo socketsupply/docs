@@ -22,3 +22,16 @@ continue to deploy your files.
 If your project uses framework or has a build step that outputs
 static assets that can be uploaded, you will want to tell operator
 what command to run for your framework.
+
+<img class="fullscreen" src="https://raw.githubusercontent.com/optoolco/docs/master/guides/deploy-website/images/build-step.png"/>
+
+Instead of telling Operator where the files are to upload, Operator
+will tell you where to write the output of the build step to.
+
+This is done with the `OPTOOLCO_BUILD_OUTPUT` environment variable. Your
+build step needs to write files to that directory. As an example, if your
+using `next` your build step would look like
+
+```sh
+next export -o $OPTOOLCO_BUILD_OUTPUT
+```
