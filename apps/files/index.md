@@ -1,6 +1,6 @@
 # Buckets
 
-The _Buckets_ app is a GUI for viewing and managing cloud files.
+The _Files_ app is a GUI for viewing and managing cloud files.
 
 ## Description
 
