@@ -1,4 +1,4 @@
-# Buckets
+# Files
 
 The _Files_ app is a GUI for viewing and managing cloud files.
 
